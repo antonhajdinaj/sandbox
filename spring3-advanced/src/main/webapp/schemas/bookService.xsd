@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://com/realdolmen/spr020/ws/domain" xmlns:tns="http://com/realdolmen/spr020/ws/domain" elementFormDefault="qualified">
+<element name="Book">
+	<complexType>
+		<sequence>
+			<element name="title" type="string"/>
+		</sequence>
+	</complexType>
+</element>
+</schema>

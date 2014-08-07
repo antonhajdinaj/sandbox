@@ -1,0 +1,4 @@
+INSERT INTO `book` (`id`, `author`, `category`, `isbn`, `pages`, `price`, `title`, `version`) VALUES (1, 'G.R.R. Martin', 'Fantasy', '9780553801477', 1040, 35.0, 'A Dance with Dragons', 1);
+INSERT INTO `book` (`id`, `author`, `category`, `isbn`, `pages`, `price`, `title`, `version`) VALUES (2, 'Robert Jordan', 'Fantasy', '9780765325952', 912, 34.99, 'A Memory of Light', 1);
+INSERT INTO `book` (`id`, `author`, `category`, `isbn`, `pages`, `price`, `title`, `version`) VALUES (3, 'Robin Hobb', 'Fantasy', '9780062116857', 448, 27.99, 'Blood of Dragons', 1);
+INSERT INTO `book` (`id`, `author`, `category`, `isbn`, `pages`, `price`, `title`, `version`) VALUES (4, 'Lois McMaster Bujold', 'Science-Fiction', '9781451638455', 432, 25.0, 'Captain Vorpatril''s Alliance', 1);

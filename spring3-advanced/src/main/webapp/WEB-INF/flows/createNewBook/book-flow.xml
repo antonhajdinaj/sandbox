@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flow xmlns="http://www.springframework.org/schema/webflow"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/webflow
+        http://www.springframework.org/schema/webflow/spring-webflow.xsd"
+	start-state="step1">
+
+	<var name="book" class="com.spring3.advanced.domain.Book" />
+	<view-state id="step1" view="flows/step1" model="book" >
+		<transition on="next" to="step2" />
+	</view-state>
+	<view-state id="step2" view="flows/step2" model="book">
+		<transition on="previous" to="step1" validate="false"/>
+		<transition on="next" to="confirm" />
+	</view-state>
+
+	<view-state id="confirm" view="flows/confirm" model="book">
+		<transition on="previous" to="step2" />
+		<transition on="submit" to="submit" />
+	</view-state>
+
+	<action-state id="submit">
+		<evaluate expression="bookServiceImpl.addBook(book)" />
+		<transition to="end" />
+	</action-state>
+
+	<end-state id="end" view="redirect:books/list">
+
+	</end-state>
+
+
+</flow>
