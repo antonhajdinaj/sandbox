@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="C:/javadev/tools/eclipse-4.3/workspace/viewstate/lib/commons-beanutils-1.7.0.jar"/>
+	<classpathentry kind="lib" path="C:/javadev/tools/eclipse-4.3/workspace/viewstate/lib/commons-codec-1.4.jar"/>
+	<classpathentry kind="lib" path="C:/javadev/tools/eclipse-4.3/workspace/viewstate/lib/commons-collections-3.2.jar"/>
+	<classpathentry kind="lib" path="C:/javadev/tools/eclipse-4.3/workspace/viewstate/lib/commons-digester-1.8.jar"/>
+	<classpathentry kind="lib" path="C:/javadev/tools/eclipse-4.3/workspace/viewstate/lib/commons-el-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/javadev/tools/eclipse-4.3/workspace/viewstate/lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/javadev/tools/eclipse-4.3/workspace/viewstate/lib/el-api.jar"/>
+	<classpathentry kind="lib" path="C:/javadev/tools/eclipse-4.3/workspace/viewstate/lib/jasper.jar"/>
+	<classpathentry kind="lib" path="C:/javadev/tools/eclipse-4.3/workspace/viewstate/lib/jasper-el.jar"/>
+	<classpathentry kind="lib" path="C:/javadev/tools/eclipse-4.3/workspace/viewstate/lib/myfaces-api-1.2.8.jar"/>
+	<classpathentry kind="lib" path="C:/javadev/tools/eclipse-4.3/workspace/viewstate/lib/myfaces-impl-1.2.8.jar"/>
+	<classpathentry kind="lib" path="C:/javadev/tools/eclipse-4.3/workspace/viewstate/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="C:/javadev/tools/eclipse-4.3/workspace/viewstate/lib/swt-Linux32-3.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/javadev/tools/eclipse-4.3/workspace/viewstate/lib/swt-Linux64-3.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/javadev/tools/eclipse-4.3/workspace/viewstate/lib/swt-Mac32-3.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/javadev/tools/eclipse-4.3/workspace/viewstate/lib/swt-Mac64-3.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/javadev/tools/eclipse-4.3/workspace/viewstate/lib/swt-Win32-3.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/javadev/tools/eclipse-4.3/workspace/viewstate/lib/swt-win64-3.5.2.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
